@@ -2,4 +2,4 @@ FROM tomcat:latest
 MAINTAINER vijayabalan has created this container based tomcat
 MAINTAINER artifacts will be copied from jenkins build server
 MAINTAINER Then war file will be deployed into tomcat which is running on container
-COPY ./webapp.war /usr/local/tomcat/webapps/
+COPY ./WebApp.war /usr/local/tomcat/webapps/
