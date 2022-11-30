@@ -14,7 +14,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: warriconnected/webapp-image
+    image: warriconnected/webapp-image:v1.0
     ports:
     - containerPort: 8080
 ---
